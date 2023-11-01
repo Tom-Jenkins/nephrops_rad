@@ -1,0 +1,139 @@
+---
+title: "Supplementary Material: S1"
+subtitle: "Genome-wide markers reveal panmixia of Norway lobster (*Nephrops norvegicus*) stocks in the Adriatic Sea"
+author: "Tom L. Jenkins, Michela Martinelli, Jamie R. Stevens"
+date: "2023-10-18"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Model carapace length
+
+This document contains the results of modelling carapace length (mm) as a function of site and sex of Norway lobsters.
+
+```{r}
+# Load packages
+library(ggplot2)
+library(readr)
+library(dplyr, warn.conflicts = FALSE)
+library(performance)
+library(see)
+```
+
+### Read in and prepare data
+
+```{r}
+# Read in carapace length data
+carapace_df <- read_csv("./Data/growth_data_all_samples_collected.csv",
+                        show_col_types = FALSE)
+carapace_df
+```
+
+```{r}
+# Convert sites column to factor and reorder sites
+site_order <- c("Cly","17I","18II","Anc","Cgg","Pom1","Pom2","Pom3")
+carapace_df$Site <- factor(carapace_df$Site, levels = site_order)
+```
+
+```{r}
+# Convert pomo and sex column to factor
+carapace_df$Pomo <- factor(carapace_df$Pomo)
+carapace_df$Sex <- factor(carapace_df$Sex, labels = c("Female","Male"))
+```
+
+```{r}
+# Boxplot grouped by sex (male or female)
+fig1C <- ggplot(data=carapace_df, aes(x=Site, y=Carapace_length_mm))+
+  geom_boxplot(aes(fill=Sex), position = position_dodge(0.7))+
+  # geom_violin(aes(fill=Sex), position = position_dodge(0.7))+
+  scale_fill_manual(values= c("#dd1c77","royalblue"),
+                    labels= c("Female","Male"))+
+  ylab("Carapace length (mm)\n")+
+  ggtitle("Carapace length variation")+
+  theme_bw()+
+  theme(plot.title = element_text(hjust = 0.5, size = 15),
+        axis.title.x = element_blank(),
+        axis.title.y = element_text(size = 12),
+        axis.text = element_text(size = 12, colour = "black")
+  )
+fig1C
+```
+
+```{r}
+# Filter data.frame to only include Adriatic sites
+carapace_df <- filter(carapace_df, Sea == "Adriatic")
+```
+
+```{r}
+# Male average carapace length: Pomo Pit
+male_pomo <- carapace_df |>
+  filter(.data = _, Pomo == "Yes" & Sex == "Male") |>
+  pull(.data =_, Carapace_length_mm) |>
+  median(x = _) |>
+  round(x = _, digits = 1)
+
+# Male average carapace length: Outside Pomo Pit
+male_outside <- carapace_df |>
+  filter(.data = _, Pomo == "No" & Sex == "Male") |>
+  pull(.data =_, Carapace_length_mm) |>
+  median(x = _) |>
+  round(x = _, digits = 1)
+
+# Female average carapace length: Pomo Pit
+female_pomo <- carapace_df |>
+  filter(.data = _, Pomo == "Yes" & Sex == "Female") |>
+  pull(.data =_, Carapace_length_mm) |>
+  median(x = _) |>
+  round(x = _, digits = 1)
+
+# Female average carapace length: Outside Pomo Pit
+female_outside <- carapace_df |>
+  filter(.data = _, Pomo == "No" & Sex == "Female") |>
+  pull(.data =_, Carapace_length_mm) |>
+  median(x = _) |>
+  round(x = _, digits = 1)
+
+# Print median averages
+tibble(
+  `group` = c("Male Pomo Pit", "Female Pomo Pit", "Male Outside", "Female Outside"),
+  `median carapace length (mm)` = c(male_pomo, female_pomo, male_outside, female_outside),
+  `n` = c(95, 77, 73, 62)
+)
+```
+
+
+### Modelling
+
+```{r}
+# ANOVA: model carapace length as a function of site (factor)
+model1 <- lm(Carapace_length_mm ~ Pomo, data = carapace_df)
+```
+
+```{r}
+# Check model assumptions
+check_model(model1)
+```
+
+```{r}
+# ANOVA: model carapace length as a function of site (factor) and sex (factor)
+model2 <- lm(Carapace_length_mm ~ Pomo + Sex, data = carapace_df)
+```
+
+```{r}
+# Check model assumptions
+check_model(model2)
+```
+
+```{r}
+# Compare models
+compare_performance(model1, model2, rank = TRUE, metrics = "common")
+```
+
+```{r}
+# Best model summary
+summary(model2)
+```
+
