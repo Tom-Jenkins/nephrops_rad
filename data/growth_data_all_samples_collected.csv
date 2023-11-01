@@ -1,0 +1,340 @@
+Ind_ID,Site,Sea,Pomo,Sex,Carapace_length_mm
+SP90,Pom1,Adriatic,Yes,M,43
+SP91,Pom1,Adriatic,Yes,F,30
+SP92,Pom1,Adriatic,Yes,M,35
+SP93,Pom1,Adriatic,Yes,M,39
+SP94,Pom1,Adriatic,Yes,M,28
+SP95,Pom1,Adriatic,Yes,M,28
+SP96,Pom1,Adriatic,Yes,F,28
+SP97,Pom1,Adriatic,Yes,M,24
+SP98,Pom1,Adriatic,Yes,M,29
+SP99,Pom1,Adriatic,Yes,M,30
+SP100,Pom1,Adriatic,Yes,M,30
+SP101,Pom1,Adriatic,Yes,M,26
+SP102,Pom1,Adriatic,Yes,M,35
+SP103,Pom1,Adriatic,Yes,M,32
+SP104,Pom1,Adriatic,Yes,F,31
+SP105,Pom1,Adriatic,Yes,M,30
+SP106,Pom1,Adriatic,Yes,F,30
+SP107,Pom1,Adriatic,Yes,M,32
+SP108,Pom1,Adriatic,Yes,F,26
+SP109,Pom1,Adriatic,Yes,F,26
+SP110,Pom1,Adriatic,Yes,M,24
+SP111,Pom1,Adriatic,Yes,F,25
+SP112,Pom1,Adriatic,Yes,F,24
+SP113,Pom1,Adriatic,Yes,M,25
+SP114,Pom1,Adriatic,Yes,F,24
+SP115,Pom1,Adriatic,Yes,M,22
+SP116,Pom1,Adriatic,Yes,F,26
+SP117,Pom1,Adriatic,Yes,F,32
+SP118,Pom1,Adriatic,Yes,M,30
+SP119,Pom1,Adriatic,Yes,M,30
+SP120,Pom1,Adriatic,Yes,M,20
+SP121,Pom1,Adriatic,Yes,M,19
+SP122,Pom1,Adriatic,Yes,M,20
+SP123,Pom1,Adriatic,Yes,F,17
+SP124,Pom1,Adriatic,Yes,F,20
+SP125,Pom1,Adriatic,Yes,M,21
+SP126,Pom1,Adriatic,Yes,F,19
+SP127,Pom1,Adriatic,Yes,F,19
+SP128,Pom1,Adriatic,Yes,F,32
+SP129,Pom1,Adriatic,Yes,M,35
+SP130,Pom1,Adriatic,Yes,M,21
+SP131,Pom1,Adriatic,Yes,M,24
+SP132,Pom1,Adriatic,Yes,M,24
+SP133,Pom1,Adriatic,Yes,M,29
+SP134,Pom1,Adriatic,Yes,F,23
+SP135,Pom1,Adriatic,Yes,F,23
+SP136,Pom1,Adriatic,Yes,M,31
+SP137,Pom1,Adriatic,Yes,M,29
+SP138,Pom1,Adriatic,Yes,M,23
+SP139,Pom1,Adriatic,Yes,F,26
+SP140,Pom1,Adriatic,Yes,M,35
+SP141,Pom1,Adriatic,Yes,M,26
+SP142,Pom1,Adriatic,Yes,M,29
+SP143,Pom1,Adriatic,Yes,M,28
+SP144,Pom1,Adriatic,Yes,M,26
+SP145,Pom1,Adriatic,Yes,F,23
+SP146,Pom1,Adriatic,Yes,F,20
+SP147,Pom1,Adriatic,Yes,M,27
+SP148,Pom1,Adriatic,Yes,F,23
+SP149,Pom1,Adriatic,Yes,M,23
+SP150,Pom1,Adriatic,Yes,M,23
+SP151,Pom1,Adriatic,Yes,M,22
+SP152,Pom1,Adriatic,Yes,M,18
+SP153,Pom1,Adriatic,Yes,M,20
+SP154,Pom1,Adriatic,Yes,F,18
+SP155,Pom1,Adriatic,Yes,M,26
+SP156,Pom1,Adriatic,Yes,F,23
+SP157,Pom1,Adriatic,Yes,M,22
+SP158,Pom1,Adriatic,Yes,M,23
+SP159,Pom1,Adriatic,Yes,F,24
+SP160,Pom1,Adriatic,Yes,M,23
+SP161,Pom1,Adriatic,Yes,F,21
+SP162,Pom1,Adriatic,Yes,M,22
+SP163,Pom1,Adriatic,Yes,F,21
+SP164,Pom1,Adriatic,Yes,M,20
+SP165,Pom1,Adriatic,Yes,F,18
+SP166,Pom1,Adriatic,Yes,F,17
+SP167,Pom1,Adriatic,Yes,F,19
+SP168,Pom1,Adriatic,Yes,F,17
+SP169,Pom1,Adriatic,Yes,M,17
+SP170,Pom1,Adriatic,Yes,M,21
+SP171,Pom1,Adriatic,Yes,F,22
+SP172,Pom1,Adriatic,Yes,F,18
+SP173,Pom1,Adriatic,Yes,M,32
+SP174,Pom1,Adriatic,Yes,M,38
+SP175,Pom1,Adriatic,Yes,M,35
+SP176,Pom1,Adriatic,Yes,M,30
+SP177,Pom1,Adriatic,Yes,F,29
+SP178,Pom1,Adriatic,Yes,M,30
+SP179,Pom1,Adriatic,Yes,M,34
+SP180,Pom1,Adriatic,Yes,M,30
+SP181,Pom1,Adriatic,Yes,M,30
+SP182,Pom1,Adriatic,Yes,M,29
+SP183,Pom1,Adriatic,Yes,M,27
+SP184,Pom1,Adriatic,Yes,F,25
+SP185,Pom1,Adriatic,Yes,M,27
+SP186,Pom1,Adriatic,Yes,M,30
+SP187,Pom1,Adriatic,Yes,M,28
+SP188,Pom1,Adriatic,Yes,M,27
+SP189,Pom1,Adriatic,Yes,M,30
+SP190,Pom1,Adriatic,Yes,M,29
+SP191,Pom1,Adriatic,Yes,M,25
+SP192,Pom1,Adriatic,Yes,F,27
+SP193,Pom1,Adriatic,Yes,F,27
+SP194,Pom1,Adriatic,Yes,M,30
+SP195,Pom1,Adriatic,Yes,F,29
+SP196,Pom1,Adriatic,Yes,M,26
+SP197,Pom1,Adriatic,Yes,F,26
+SP198,Pom1,Adriatic,Yes,M,27
+SP199,Pom1,Adriatic,Yes,F,26
+SP200,Pom1,Adriatic,Yes,M,26
+SP201,Pom1,Adriatic,Yes,F,26
+SP202,Pom1,Adriatic,Yes,F,27
+SP203,Pom1,Adriatic,Yes,F,22
+SP204,Pom1,Adriatic,Yes,M,25
+SP205,Pom1,Adriatic,Yes,F,26
+SP206,Pom1,Adriatic,Yes,F,26
+SP207,Pom1,Adriatic,Yes,F,25
+SP208,Pom1,Adriatic,Yes,F,24
+SP209,Pom1,Adriatic,Yes,F,21
+SP210,Pom1,Adriatic,Yes,F,26
+SP211,Pom1,Adriatic,Yes,F,23
+SP212,Pom1,Adriatic,Yes,F,24
+SP213,Pom1,Adriatic,Yes,F,23
+SP214,Pom1,Adriatic,Yes,F,25
+SP215,Pom1,Adriatic,Yes,F,24
+SP216,Pom1,Adriatic,Yes,M,25
+SP217,Pom1,Adriatic,Yes,M,24
+SP218,Pom1,Adriatic,Yes,F,24
+SP219,Pom1,Adriatic,Yes,F,20
+SP221,Pom1,Adriatic,Yes,M,20
+SP222,Pom1,Adriatic,Yes,F,20
+1,Pom2,Adriatic,Yes,M,52
+2,Pom2,Adriatic,Yes,M,47
+3,Pom2,Adriatic,Yes,M,39
+4,Pom2,Adriatic,Yes,M,35
+5,Pom2,Adriatic,Yes,M,34
+6,Pom2,Adriatic,Yes,M,29
+7,Pom2,Adriatic,Yes,M,27
+8,Pom2,Adriatic,Yes,M,21
+9,Pom2,Adriatic,Yes,M,20
+10,Pom2,Adriatic,Yes,M,41
+11,Pom2,Adriatic,Yes,F,33
+12,Pom2,Adriatic,Yes,F,29
+13,Pom2,Adriatic,Yes,F,31
+14,Pom2,Adriatic,Yes,F,28
+15,Pom2,Adriatic,Yes,F,24
+16,Pom2,Adriatic,Yes,F,23
+17,Pom2,Adriatic,Yes,F,22
+18,Pom2,Adriatic,Yes,F,21
+19,Pom2,Adriatic,Yes,F,19
+20,Pom2,Adriatic,Yes,F,20
+21,Pom3,Adriatic,Yes,F,25
+22,Pom3,Adriatic,Yes,F,26
+23,Pom3,Adriatic,Yes,F,30
+24,Pom3,Adriatic,Yes,F,20
+25,Pom3,Adriatic,Yes,F,21
+26,Pom3,Adriatic,Yes,F,27
+27,Pom3,Adriatic,Yes,F,23
+28,Pom3,Adriatic,Yes,F,18
+29,Pom3,Adriatic,Yes,F,28
+30,Pom3,Adriatic,Yes,F,24
+31,Pom3,Adriatic,Yes,M,58
+32,Pom3,Adriatic,Yes,M,46
+33,Pom3,Adriatic,Yes,M,41
+34,Pom3,Adriatic,Yes,M,30
+35,Pom3,Adriatic,Yes,M,47
+36,Pom3,Adriatic,Yes,M,42
+37,Pom3,Adriatic,Yes,M,23
+38,Pom3,Adriatic,Yes,M,39
+39,Pom3,Adriatic,Yes,M,25
+40,Pom3,Adriatic,Yes,M,34
+1 CH,Cgg,Adriatic,No,M,40
+2 CH,Cgg,Adriatic,No,F,37
+3 CH,Cgg,Adriatic,No,F,42
+4 CH,Cgg,Adriatic,No,M,44
+5 CH,Cgg,Adriatic,No,M,35
+6 CH,Cgg,Adriatic,No,M,42
+7 CH,Cgg,Adriatic,No,F,39
+8 CH,Cgg,Adriatic,No,M,39
+9 CH,Cgg,Adriatic,No,M,42
+10 CH,Cgg,Adriatic,No,M,40
+11 CH,Cgg,Adriatic,No,M,38
+12 CH,Cgg,Adriatic,No,F,40
+13 CH,Cgg,Adriatic,No,M,38
+14 CH,Cgg,Adriatic,No,F,41
+15 CH,Cgg,Adriatic,No,F,36
+16 CH,Cgg,Adriatic,No,F,40
+17 CH,Cgg,Adriatic,No,F,41
+18 CH,Cgg,Adriatic,No,F,43
+19 CH,Cgg,Adriatic,No,F,40
+20 CH,Cgg,Adriatic,No,F,34
+21 CH,Cgg,Adriatic,No,F,40
+22 CH,Cgg,Adriatic,No,F,36
+23 CH,Cgg,Adriatic,No,F,40
+24 CH,Cgg,Adriatic,No,F,40
+25 CH,Cgg,Adriatic,No,F,34
+26 CH,Cgg,Adriatic,No,F,42
+27 CH,Cgg,Adriatic,No,F,37
+28 CH,Cgg,Adriatic,No,F,40
+29 CH,Cgg,Adriatic,No,F,37
+30 CH,Cgg,Adriatic,No,M,41
+31 CH,Cgg,Adriatic,No,F,36
+32 CH,Cgg,Adriatic,No,F,43
+33 CH,Cgg,Adriatic,No,M,37
+34 CH,Cgg,Adriatic,No,M,40
+35 CH,Cgg,Adriatic,No,F,38
+36 CH,Cgg,Adriatic,No,M,41
+37 CH,Cgg,Adriatic,No,F,35
+38 CH,Cgg,Adriatic,No,M,40
+39 CH,Cgg,Adriatic,No,F,34
+40 CH,Cgg,Adriatic,No,M,28
+41 CH,Cgg,Adriatic,No,F,35
+1,Anc,Adriatic,No,M,65.6
+2,Anc,Adriatic,No,M,54.6
+3,Anc,Adriatic,No,M,54.1
+4,Anc,Adriatic,No,M,52.9
+5,Anc,Adriatic,No,M,54.5
+6,Anc,Adriatic,No,M,55
+7,Anc,Adriatic,No,M,57.4
+8,Anc,Adriatic,No,M,54.5
+9,Anc,Adriatic,No,F,50.3
+10,Anc,Adriatic,No,M,48.8
+11,Anc,Adriatic,No,M,47.6
+12,Anc,Adriatic,No,F,46.9
+13,Anc,Adriatic,No,M,53.2
+14,Anc,Adriatic,No,M,48
+15,Anc,Adriatic,No,M,46.1
+16,Anc,Adriatic,No,M,44.6
+17,Anc,Adriatic,No,M,52.3
+18,Anc,Adriatic,No,F,46.6
+19,Anc,Adriatic,No,F,42.3
+20,Anc,Adriatic,No,M,43.6
+21,Anc,Adriatic,No,F,48.3
+22,Anc,Adriatic,No,F,56.1
+23,Anc,Adriatic,No,M,50.5
+24,Anc,Adriatic,No,M,46
+25,Anc,Adriatic,No,F,46.7
+26,Anc,Adriatic,No,M,39
+27,Anc,Adriatic,No,F,43.6
+28,Anc,Adriatic,No,M,45.5
+29,Anc,Adriatic,No,F,44.1
+30,Anc,Adriatic,No,M,41.5
+31,Anc,Adriatic,No,M,46.1
+32,Anc,Adriatic,No,F,44.6
+33,Anc,Adriatic,No,M,39.5
+34,Anc,Adriatic,No,F,33.4
+1,17I,Adriatic,No,F,37.8
+2,17I,Adriatic,No,F,38.8
+3,17I,Adriatic,No,F,44.5
+4,17I,Adriatic,No,F,48.3
+5,17I,Adriatic,No,F,44.3
+6,17I,Adriatic,No,F,50.4
+7,17I,Adriatic,No,F,40
+8,17I,Adriatic,No,F,40.9
+9,17I,Adriatic,No,F,36
+10,17I,Adriatic,No,F,35.4
+11,17I,Adriatic,No,M,61.1
+12,17I,Adriatic,No,M,46.5
+13,17I,Adriatic,No,M,45
+14,17I,Adriatic,No,M,56.1
+15,17I,Adriatic,No,M,53.2
+16,17I,Adriatic,No,M,55.2
+17,17I,Adriatic,No,M,48
+18,17I,Adriatic,No,M,46
+19,17I,Adriatic,No,M,59.5
+20,17I,Adriatic,No,M,46.2
+21,17I,Adriatic,No,M,46.4
+22,17I,Adriatic,No,M,59.2
+23,17I,Adriatic,No,M,57
+24,17I,Adriatic,No,M,53.8
+25,17I,Adriatic,No,M,45.4
+26,17I,Adriatic,No,M,46.2
+27,17I,Adriatic,No,M,38.3
+28,17I,Adriatic,No,M,36
+29,17I,Adriatic,No,M,34.5
+30,17I,Adriatic,No,M,26.9
+1,18II,Adriatic,No,M,54.5
+2,18II,Adriatic,No,M,67.7
+3,18II,Adriatic,No,M,55.4
+4,18II,Adriatic,No,M,47.9
+5,18II,Adriatic,No,M,52.6
+6,18II,Adriatic,No,M,54.3
+7,18II,Adriatic,No,M,43.9
+8,18II,Adriatic,No,M,42.7
+9,18II,Adriatic,No,M,40.1
+10,18II,Adriatic,No,M,40
+11,18II,Adriatic,No,M,36.5
+12,18II,Adriatic,No,M,38
+13,18II,Adriatic,No,M,40.9
+14,18II,Adriatic,No,M,36.6
+15,18II,Adriatic,No,M,35.2
+16,18II,Adriatic,No,F,44.4
+17,18II,Adriatic,No,F,46.1
+18,18II,Adriatic,No,F,51.1
+19,18II,Adriatic,No,F,47.3
+20,18II,Adriatic,No,F,41.6
+21,18II,Adriatic,No,F,42.5
+22,18II,Adriatic,No,F,34.9
+23,18II,Adriatic,No,F,36
+24,18II,Adriatic,No,F,38.6
+25,18II,Adriatic,No,F,37
+26,18II,Adriatic,No,F,36.6
+27,18II,Adriatic,No,F,52.5
+28,18II,Adriatic,No,F,36.5
+29,18II,Adriatic,No,F,33.8
+30,18II,Adriatic,No,F,35.3
+19AG155,Cly,Atlantic,,M,33.3
+19AG156,Cly,Atlantic,,M,39.5
+19AG157,Cly,Atlantic,,F,40.9
+19AG158,Cly,Atlantic,,F,43.3
+19AG159,Cly,Atlantic,,F,36.2
+19AG160,Cly,Atlantic,,F,56
+19AG161,Cly,Atlantic,,F,32.9
+19AG162,Cly,Atlantic,,F,35.5
+19AG163,Cly,Atlantic,,M,40
+19AG164,Cly,Atlantic,,M,34.5
+19AG165,Cly,Atlantic,,F,31.2
+19AG166,Cly,Atlantic,,F,50.9
+19AG167,Cly,Atlantic,,F,37
+19AG168,Cly,Atlantic,,M,31.7
+19AG169,Cly,Atlantic,,F,36.4
+19AG170,Cly,Atlantic,,F,47.3
+19AG171,Cly,Atlantic,,F,39.2
+19AG172,Cly,Atlantic,,F,38.2
+19AG173,Cly,Atlantic,,F,38.9
+19AG174,Cly,Atlantic,,M,29.7
+19AG175,Cly,Atlantic,,F,28.5
+19AG176,Cly,Atlantic,,F,40.5
+19AG177,Cly,Atlantic,,F,38.3
+19AG178,Cly,Atlantic,,M,37.2
+19AG179,Cly,Atlantic,,F,31.3
+19AG180,Cly,Atlantic,,M,35.9
+19AG181,Cly,Atlantic,,F,29
+19AG182,Cly,Atlantic,,M,36.5
+19AG183,Cly,Atlantic,,F,35.4
+19AG184,Cly,Atlantic,,F,24.7
+19AG185,Cly,Atlantic,,F,36.8
+19AG186,Cly,Atlantic,,F,40
