@@ -22,7 +22,7 @@ plot_pca <- function(pca_obj, genlight_obj, rad_samples_meta, axes = c(1,2),
   ind_coords$Site <- genlight_obj$pop
   
   # Subset metadata data.frame by individuals in genlight object
-  rad_samples_meta_sub <- filter(rad_samples_meta, Ind_ID %in% indNames(genlight_obj))
+  rad_samples_meta_sub <- dplyr::filter(rad_samples_meta, Ind_ID %in% indNames(genlight_obj))
   
   # Add a column with male and female
   sex_strata <- c()
