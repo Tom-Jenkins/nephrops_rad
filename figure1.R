@@ -35,6 +35,7 @@ clyde <- filter(sites, Code == "Cly")
 
 # Import bathymetry and transform to CRS
 bathy <- rast("./data/MS_bathy_5m_lonlat.tif") |>
+  terra::crop(x = _, y = ext(-20,40,30,65)) |>
   terra::project(x = _, "epsg:3035")
 
 # Divide depth into categories
@@ -95,7 +96,7 @@ med_map <- ggplot()+
   geom_sf_label_repel(data=med_sites, aes(label=Code), size = 4,
   force = 30, nudge_x = -2, nudge_y = 0, seed = 10)+
   scale_fill_manual("Sampling location",
-                    values=c("yellow","green","#26F7FD","pink"),
+                    values=c("yellow","#7fcdbb","#dfc27d","#bf812d"),
                     labels=c("GSA 17","GSA 18","GSA 22","GSA 9"))+
   coord_sf(xlim=c(med_ext_laea[1], med_ext_laea[2]),
            ylim=c(med_ext_laea[3], med_ext_laea[4]),

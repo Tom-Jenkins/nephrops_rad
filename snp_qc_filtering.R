@@ -31,7 +31,7 @@ library(OutFLANK) # devtools::install_github("whitlock/OutFLANK")
 # ----------------- #
 
 # Import vcf file
-vcf <- read.vcfR("./Data/populations.snps.vcf", verbose = FALSE)
+vcf <- read.vcfR("./data/populations.snps.vcf", verbose = FALSE)
 vcf
 
 # Check for biallelic SNPs
@@ -49,7 +49,7 @@ nephrops
 indNames(nephrops)
 
 # Add population labels
-popID <- read.delim("./Data/popmap_filt.txt", header = FALSE)
+popID <- read.delim("./data/popmap_filt.txt", header = FALSE)
 nrow(popID) == length(indNames(nephrops))
 nephrops$pop <- as.factor(popID$V2)
 summary(nephrops$pop)

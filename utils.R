@@ -6,11 +6,13 @@
 # 
 # =========================== #
 
-plot_pca <- function(pca_obj, genlight_obj, rad_samples_meta, axes = c(1,2),
-                     by = "site", cols = palette.colors(nPop(genlight_obj), "Set 3")) {
+plot_pca <- function(pca_scores, percent, genlight_obj, rad_samples_meta, axes = c(1,2),
+                     axis_lab = "PC", title = "Principal components analysis",
+                     by = "site", cols = palette.colors(nPop(genlight_obj), "Set 3"),
+                     labsize = 3.5) {
   
   # Create a data.frame containing individual coordinates
-  ind_coords <- as.data.frame(pca_obj$scores)
+  ind_coords <- as.data.frame(pca_scores)
   
   # Rename columns of data.frame
   colnames(ind_coords) <- c("Axis1","Axis2","Axis3")
@@ -42,9 +44,8 @@ plot_pca <- function(pca_obj, genlight_obj, rad_samples_meta, axes = c(1,2),
   ind_coords <- left_join(ind_coords, centroid, by = "Site", suffix = c("",".cen"))
   
   # Custom x and y labels
-  percent <- pca_obj$eig/sum(pca_obj$eig)*100
-  xlab <- paste0("Axis ", axes[1], " (", format(round(percent[axes[1]], 1), nsmall=1)," %)", sep="")
-  ylab <- paste0("Axis ", axes[2], " (", format(round(percent[axes[2]], 1), nsmall=1)," %)", sep="")
+  xlab <- paste0(axis_lab, " ", axes[1], " (", format(round(percent[axes[1]], 1), nsmall=1)," %)", sep="")
+  ylab <- paste0(axis_lab, " ", axes[2], " (", format(round(percent[axes[2]], 1), nsmall=1)," %)", sep="")
   
   # Custom ggplot2 theme
   ggtheme <- theme(legend.title = element_blank(),
@@ -73,18 +74,19 @@ plot_pca <- function(pca_obj, genlight_obj, rad_samples_meta, axes = c(1,2),
       geom_segment(aes(xend = !!parse_expr(paste0("Axis",axes[1],".cen")),
                        yend = !!parse_expr(paste0("Axis",axes[2],".cen")),
                        colour = Site),
-                   show.legend = FALSE)+
+                    show.legend = FALSE, linewidth = 0.3)+
       # points
-      geom_point(aes(fill = Site), shape = 21, size = 4,  show.legend = FALSE)+
+      geom_point(aes(fill = Site), shape = 21, size = 3,  show.legend = FALSE)+
       # centroids
-      geom_label(data = centroid, aes(label = Site, fill = Site), size = 4, alpha = 0.9, show.legend = FALSE)+
+      geom_label(data = centroid, aes(label = Site, fill = Site), size = labsize, alpha = 0.9,
+                 show.legend = FALSE, label.padding = unit(0.1, "cm"))+
       # colouring
       scale_fill_manual(values = cols)+
       scale_colour_manual(values = cols)+
       # custom labels
       labs(x = xlab, y = ylab)+
       # title
-      ggtitle("Principal components analysis")+
+      ggtitle(title)+
       # custom theme
       ggtheme
   }
@@ -96,7 +98,7 @@ plot_pca <- function(pca_obj, genlight_obj, rad_samples_meta, axes = c(1,2),
                       y = !!parse_expr(paste0("Axis",axes[2]))))+
       geom_hline(yintercept = 0)+
       geom_vline(xintercept = 0)+
-      geom_point(aes(fill = sex), shape = 21, size = 4, show.legend = TRUE)+
+      geom_point(aes(fill = sex), shape = 21, size = 3, show.legend = TRUE)+
       scale_fill_manual("Sex",
                         values = c("royalblue","#dd1c77","grey"),
                         labels = c("Male","Female","n/a"))+
